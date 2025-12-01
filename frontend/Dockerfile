@@ -25,11 +25,11 @@ WORKDIR /usr/src/app
 # Copy built assets (support both Vite 'dist' and CRA 'build')
 COPY --from=build /usr/src/app/dist ./dist
 
+COPY /env.sh /docker-entrypoint.d/env.sh
+RUN chmod +x /docker-entrypoint.d/env.sh
+
 EXPOSE 3000
 
 # Install a static server in the runtime image
 RUN bun add -g serve
-
-# Start serving whichever output exists
-CMD ["sh", "-c", "if [ -d dist ]; then serve -s dist -l 3000; else serve -s build -l 3000; fi"]
 

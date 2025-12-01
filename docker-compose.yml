@@ -18,9 +18,11 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
     environment:
-      - VITE_APP_API_URL=http://localhost:3001
+      - MY_APP_API_URL=https://kankenapi.manabe.es
     ports:
       - "5173:3000"
     depends_on:
       - backend
     restart: unless-stopped
+    command: >
+      sh -c "/docker-entrypoint.d/env.sh && serve -s dist -l 3000"
