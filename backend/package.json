@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "src/main.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/http-errors": "^2.0.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "elysia": "^1.4.16",
+    "elysia-rate-limit": "^4.4.2",
+    "express-ts-handler": "^0.0.2",
+    "http-errors": "^2.0.1",
+    "jiti": "^2.6.1",
+    "mongoose": "^8.20.1",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.12",
+    "zod-express-middleware": "^1.4.0",
+    "zod-validation-error": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "bun --watch src/main.ts",
+    "build": "bun build src/main.ts --target bun --outdir ./dist",
+    "start": "NODE_ENV=production bun dist/main.js",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/bun": "^1.3.3",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.47.0"
+  }
+}

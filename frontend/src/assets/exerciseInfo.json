@@ -1,0 +1,798 @@
+{
+  "10": [
+    {
+      "name": "読み",
+      "statement": "つぎの　ぶんを　よんで、ーせんのかん字の　よみがなを　ーせんの　みぎに　かきなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    },
+    {
+      "name": "筆順",
+        "statement": "つぎの　かん学の　ふといところは　なんばんめに　かきますか。◯のなかに　すうじを　かきなさい。",
+        "fontSize": 22,
+        "total": 12,
+        "questions": 12,
+        "perQuestion": 1
+    },
+    {
+      "name": "いろいろな読み方",
+        "statement": "つぎの　ぶんを　よんで、ーせんの　かん字の　よみがなを　ーせんの　みぎに　かきなさい。",
+        "fontSize": 22,
+        "total": 16,
+        "questions": 8,
+        "perQuestion": 2
+    },
+    {
+      "name": "正しい読み方",
+      "statement": "つぎの　ことばの　よみがなで　ただしいほうの　ばんごうを　せんたくしなさい。",
+      "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "読みがなの書き足し",
+      "statement": "□に　ひらがなを　一字　かいて、つぎの　ことばの　よみを　こたえなさい。",
+      "fontSize": 22,
+        "total": 12,
+        "questions": 6,
+        "perQuestion": 2
+    },
+    {
+      "name": "反対語・対応語など",
+        "statement": "つぎの　□の　なかに　かん字を　かきなさい",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "漢字の書き",
+      "statement": "つぎの　ぶんを　よんで、□の　なかに　かん字を　かきなさい。",
+      "fontSize": 22,
+        "total": 40,
+        "questions": 20,
+        "perQuestion": 2
+    }
+  ],
+  "9": [
+    {
+      "name": "読み",
+      "statement": "つぎの文をよんで、ーせんの漢字のよみがなをーせんの右にかきなさい。",
+      "fontSize": 22,
+      "total": 22,
+      "questions": 22,
+      "perQuestion": 1
+    },
+    {
+      "name": "筆順",
+        "statement": "つぎの漢字のふといところはなんばんめにかきますか。◯のなかにすう字をかきなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+    },
+    {
+      "name": "読みがなの書き足し",
+        "statement": "□にひらがなを一字かいて、つぎのことばのよみをこたえなさい。",
+        "fontSize": 22,
+        "total": 8,
+        "questions": 8,
+        "perQuestion": 1
+    },
+    {
+      "name": "はね・とめ",
+      "statement": "○のところは、はねるか、とあるか正しいかきかたで○の中にかきなさい",
+      "fontSize": 22,
+        "total": 4,
+        "questions": 4,
+        "perQuestion": 1
+    },
+    {
+      "name": "音読みと訓読み",
+      "statement": "つぎの文をよんで、ーせんの漢字のよみがなをーせんの右にかきなさい。",
+      "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+    },
+    {
+      "name": "形のよく似た漢字",
+      "statement": "つぎのーせんのひらがなを漢字でかくと、どちらが正しいですか。正しいほうのばんごうに○をつけなさい。",
+      "fontSize": 22,
+        "total": 6,
+        "questions": 6,
+        "perQuestion": 1
+    },
+    {
+      "name": "同じ部首の漢字",
+      "statement": "れいのようにおなじなかまり漢字を□の中にかきなさい。",
+      "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "反対語・対応語など",
+      "statement": "つぎの□の中に漢字をかきなさい。",
+      "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "書き取り",
+      "statement": "つぎの文をよんで、口の中に漢字をかきなさい。",
+      "fontSize": 22,
+        "total": 50,
+        "questions": 25,
+        "perQuestion": 2
+    }
+  ],
+  "8": [
+    {
+      "name": "読み",
+      "statement": "つぎの一線の漢字の読みがなをー線の右に書きなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 30,
+      "perQuestion": 1
+    },
+    {
+      "name": "筆順",
+        "statement": "つぎの漢字の太いところは何度めに書きますか。◯の中に数字を書きなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+    },
+    {
+      "name": "反対語など",
+        "statement": "□の中に漢字を書いて、上とはんたいのいみのことばにしなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "同じ部首の漢字",
+      "statement": "おなじなかまの漢字を□の中に書きなさい。",
+      "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "同じ読みの漢字",
+      "statement": "つぎの□の中に漢字を書きなさい。",
+      "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "送りがな",
+      "statement": "つぎのー線のカタカナを上の漢字とおくりがな(ひらがな）で書きなさい。",
+      "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "音読みと訓読み",
+      "statement": "つぎのー線の漢字の読みがなをー線の右に書きなさい。",
+      "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+    },
+    {
+      "name": "書き取り",
+      "statement": "つぎの□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    }
+  ],
+    "7": [
+        {
+          "name": "読み",
+        "statement": "次のー線の漢字の読みをひらがなで書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 20,
+        "perQuestion": 1
+        },
+        {
+          "name": "読み",
+            "statement": "次の各組のー緑の漢字の読みをひらがなで書きなさい。",
+            "fontSize": 22,
+            "total": 10,
+            "questions": 10,
+            "perQuestion": 1
+        },
+        {
+          "name": "漢字えらび",
+            "statement": "次のー線のカタカナに合う漢字をえらびなさい。",
+            "fontSize": 22,
+            "total": 20,
+            "questions": 10,
+            "perQuestion": 2
+        },
+      {
+        "name": "画数",
+        "statement": "次の上の漢字の太い画のところは筆順の何画目か、下の漢字の総画数は何画か、算用数字で答えなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+      },
+      {
+        "name": "音読み・訓読み",
+        "statement": "次の漢字の読みは、音読みですか訓読ですか。えらびなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+      },
+      {
+        "name": "対義語",
+        "statement": "後の□の中のひらがなを漢字になおして、意味が反対や対になることば（対義語）を書きなさい。□の中のひらがなは一度だけ使い、漢字一字を書きなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+      },
+        {
+          "name": "漢字と送りがな",
+        "statement": "次の一線のカタカナを◯の中の漢字と送りがな（ひらがな）で書きなさい。",
+        "fontSize": 22,
+            "total": 14,
+            "questions": 7,
+            "perQuestion": 2
+        },
+        {
+          "name": "同じ部首の漢字",
+        "statement": "次の部首のなかまの漢字で□にあてはまる漢字一字を書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+        },
+      {
+        "name": "同じ読みの漢字",
+        "statement": "次のー線のカタカナを漢字になおして書きなさい。",
+        "fontSize": 22,
+        "total": 16,
+        "questions": 8,
+        "perQuestion": 2
+      },
+      {
+        "name": "じゅく語作り",
+        "statement": "上の漢字と下の口の中の漢字をを組み合わせて二字のじゅく語を二つ作り書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+      },
+      {
+        "name": "漢字",
+        "statement": "つぎの□の中に漢字を書きなさい。",
+        "fontSize": 22,
+        "total": 40,
+        "questions": 20,
+        "perQuestion": 2
+      }
+    ],
+  "6": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 20,
+      "perQuestion": 1
+    },
+    {
+      "name": "漢字と送りがな",
+      "statement": "次の一線のカタカナを◯の中の漢字と送りがな（ひらがな）で書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "部首名と部首",
+      "statement": "次の漢字の部首名とご部首を選びなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "画数",
+      "statement": "次の漢字の太い画のところは筆順の何画目か、また総画数は何面か算用数字で答えなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "じゅく語の構成",
+      "statement": "漢字を二字組み合わせたじゅく語では、二つの漢字の間に意味の上で、次のような関係があります。次のじゅく語は、右のア〜エのどれにあたるか撰びなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "三字じゅく語",
+        "statement": "次のカタカナを漢字になおし、一字だけ書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "対義語・類義語",
+      "statement": "後の□の中のひらがなを漢字になおして、対義語（意味が反対や対になることば）と類義語（意味がよくにたことば）を書きなさい。□の中のひらがなは一度だけ使い、漢字一字を書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "じゅく語作り",
+      "statement": "上の読みの漢字を□の中から選び□にあてはめてじゅく語を作りなさい。",
+      "fontSize": 22,
+      "total": 12,
+      "questions": 6,
+      "perQuestion": 2
+    },
+    {
+      "name": "音と訓",
+      "statement": "漢字の読みには音と訓があります。次のじゅく語の読みは□の中のどの組み合わせになっていますか。選びなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "同じ読みの漢字",
+      "statement": "次の――線のカタカナを漢字になおして書きなさい。",
+      "fontSize": 22,
+      "total": 18,
+      "questions": 9,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    }
+  ],
+  "5": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 20,
+      "perQuestion": 1
+    },
+    {
+      "name": "部首と部首名",
+      "statement": "次の漢字の部首名とご部首を選びなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "画数",
+      "statement": "次の漢字の太い画のところは筆順の何画目か、また総画数は何面か算用数字で答えなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "漢字と送りがな",
+      "statement": "次の一線のカタカナを◯の中の漢字と送りがな（ひらがな）で書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "音と訓",
+        "statement": "漢字の読みには音と訓があります。次のじゅく語の読みは□の中のどの組み合わせになっていますか。選びなさい",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "四字の熟語",
+        "statement": "次のカタカナを漢字になおし、一字だけ書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "対義語・類義語",
+        "statement": "後の□の中のひらがなを漢字になおして、対義語（意味が反対や対になることば）と類義語（意味がよくにたことば）を書きなさい。□の中のひらがなは一度だけ使い、漢字一字を書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "熟語作り",
+        "statement": "後の□の中から漢字を選んで次の意味にあてはまる熟語を作りなさいっ。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+        },
+        {
+          "name": "熟語の構成",
+        "statement": "漢字を二字組み合わせたじゅく語では、二つの漢字の間に意味の上で、次のような関係があります。次のじゅく語は、右のア〜エのどれにあたるか撰びなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+        },
+    {
+      "name": "同じ読みの漢字",
+      "statement": "次の――線のカタカナを漢字になおして書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    }
+  ],
+  "4": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 30,
+      "perQuestion": 1
+    },
+    {
+      "name": "同音・同訓異字",
+      "statement": "次のー線のカタカナにあてはまる漢字をそれぞれのア〜オから一つ選びなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 15,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字講別",
+      "statement": "１〜５の三つの□に共通する漢字を入れて熟語を作れ。漢字はア〜コからーつ選びなさい",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "熟語の構成",
+        "statement": "熟語の構成のしかたには次のようなものがある。次の熟語は右のア〜オのどれにあたるか選びなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "部首",
+        "statement": "次の漢字の部首をア〜エから一つ選びなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 10,
+        "perQuestion": 1
+    },
+    {
+      "name": "対義語・類義語",
+        "statement": "後の□の中にひらがなを書いて、対義語と類義語を書きなさい。□の中のひらがなは一度だけ使い、漢字一字を書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "漢字と送りがな",
+        "statement": "次のー線のカタカナを漢字一字と送りがな（ひらがな）で書きなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "四字熟語",
+        "statement": "文中の四字熟語のー緑のカタカナを漢字に直せ。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "誤字訂正",
+        "statement": "次の各文にまちがって使われている同じ読みの漢字が一字ある。誤字を選び、正しい漢字を書きなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "書き取り",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    }
+  ],
+  "3": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 30,
+      "perQuestion": 1
+    },
+    {
+      "name": "同音・同訓異字",
+      "statement": "次のー線のカタカナにあてはまる漢字をそれぞれのア〜オから一つ選びなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 15,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字講別",
+      "statement": "１〜５の三つの□に共通する漢字を入れて熟語を作れ。漢字はア〜コからーつ選びなさい",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "熟語の構成",
+      "statement": "熟語の構成のしかたには次のようなものがある。次の熟語は右のア〜オのどれにあたるか選びなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "部首",
+      "statement": "次の漢字の部首をア〜エから一つ選びなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "対義語・類義語",
+      "statement": "後の□の中にひらがなを書いて、対義語と類義語を書きなさい。□の中のひらがなは一度だけ使い、漢字一字を書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字と送りがな",
+      "statement": "次のー線のカタカナを漢字一字と送りがな（ひらがな）で書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "四字熟語",
+      "statement": "文中の四字熟語のー緑のカタカナを漢字に直せ。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "誤字訂正",
+      "statement": "次の各文にまちがって使われている同じ読みの漢字が一字ある。誤字を選び、正しい漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "書き取り",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 40,
+      "questions": 20,
+      "perQuestion": 2
+    }
+  ],
+  "pre2": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 30,
+      "perQuestion": 1
+    },
+    {
+      "name": "部首",
+      "statement": "次の漢字の部首を記せる。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "熟語の構成",
+      "statement": "熟語の構成のしかたには次のようなものがある。次の熟語は右のア〜クのどれにあたるか選びなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "四字熟語（書き取り）",
+        "statement": "後の□内のひらがなを漢字にして１〜１０に入れ、四字熟語を完成せよ。□内のひらがなは一度だけ使い、漢字一字を書きなさい。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "四字熟語（意味）",
+        "statement": "次の１〜５の意味にあてはまるものを□内の四字熟語から一つ選びなさい。",
+        "fontSize": 22,
+        "total": 10,
+        "questions": 5,
+        "perQuestion": 2
+    },
+    {
+      "name": "対義語・類義語",
+        "statement": "次の１〜５の類義語６〜１０の対義語を後の□の中から選び、漢字で記せ。□の中の語は一度だけ使うこと。",
+        "fontSize": 22,
+        "total": 20,
+        "questions": 10,
+        "perQuestion": 2
+    },
+    {
+      "name": "同音・同訓異字",
+      "statement": "次のー線のカタカナを漢字に直せ。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "誤字訂正",
+      "statement": "次の各文にまちがって使われている同じ読みの漢字が一字ある。誤字を選び、正しい漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字と送りがな",
+      "statement": "次のー線のカタカナを漢字一字と送りがな（ひらがな）で書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "書き取り",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 50,
+      "questions": 25,
+      "perQuestion": 2
+    }
+  ],
+  "2": [
+    {
+      "name": "読み",
+      "statement": "つぎのー線の漢字の読みをひらがなで書きなさい。",
+      "fontSize": 22,
+      "total": 30,
+      "questions": 30,
+      "perQuestion": 1
+    },
+    {
+      "name": "部首",
+      "statement": "次の漢字の部首を記せる。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 10,
+      "perQuestion": 1
+    },
+    {
+      "name": "熟語の構成",
+      "statement": "熟語の構成のしかたには次のようなものがある。次の熟語は右のア〜クのどれにあたるか選びなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "四字熟語（書き取り）",
+      "statement": "後の□内のひらがなを漢字にして１〜１０に入れ、四字熟語を完成せよ。□内のひらがなは一度だけ使い、漢字一字を書きなさい。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "四字熟語（意味）",
+      "statement": "次の１〜５の意味にあてはまるものを□内の四字熟語から一つ選びなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "対義語・類義語",
+      "statement": "次の１〜５の類義語６〜１０の対義語を後の□の中から選び、漢字で記せ。□の中の語は一度だけ使うこと。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "同音・同訓異字",
+      "statement": "次のー線のカタカナを漢字に直せ。",
+      "fontSize": 22,
+      "total": 20,
+      "questions": 10,
+      "perQuestion": 2
+    },
+    {
+      "name": "誤字訂正",
+      "statement": "次の各文にまちがって使われている同じ読みの漢字が一字ある。誤字を選び、正しい漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "漢字と送りがな",
+      "statement": "次のー線のカタカナを漢字一字と送りがな（ひらがな）で書きなさい。",
+      "fontSize": 22,
+      "total": 10,
+      "questions": 5,
+      "perQuestion": 2
+    },
+    {
+      "name": "書き取り",
+      "statement": "次の□の中に漢字を書きなさい。",
+      "fontSize": 22,
+      "total": 50,
+      "questions": 25,
+      "perQuestion": 2
+    }
+  ]
+}
