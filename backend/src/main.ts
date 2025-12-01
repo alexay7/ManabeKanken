@@ -8,7 +8,7 @@ import examRouter from "./routes/exam.router";
 const app = new Elysia()
     .use(cors())
     .use(examRouter)
-    .listen({port: config.PORT})
+    .listen({port: config.PORT});
 
 // Initialize DB
 connectDB();
