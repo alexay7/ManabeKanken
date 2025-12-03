@@ -7,12 +7,12 @@
     "@elysiajs/cors": "^1.4.0",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.5",
+    "@types/express": "^5.0.6",
     "@types/http-errors": "^2.0.5",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
-    "elysia": "^1.4.16",
+    "elysia": "^1.4.17",
     "elysia-rate-limit": "^4.4.2",
     "express-ts-handler": "^0.0.2",
     "http-errors": "^2.0.1",
@@ -20,7 +20,7 @@
     "mongoose": "^8.20.1",
     "nodemon": "^3.1.11",
     "typescript": "^5.9.3",
-    "zod": "^4.1.12",
+    "zod": "^4.1.13",
     "zod-express-middleware": "^1.4.0",
     "zod-validation-error": "^4.0.2"
   },
@@ -36,6 +36,6 @@
     "@types/node": "^24.10.1",
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
-    "typescript-eslint": "^8.47.0"
+    "typescript-eslint": "^8.48.1"
   }
 }
