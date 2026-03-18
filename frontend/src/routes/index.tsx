@@ -1,6 +1,6 @@
 import { Checkbox } from '@/components/ui/checkbox';
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue } from '@/components/ui/select';
-import {createFileRoute, useRouter} from '@tanstack/react-router'
+import {createFileRoute, Link, useRouter} from '@tanstack/react-router'
 import DiscordIcon from "@/assets/discord.svg?react";
 import ManabeIcon from "@/assets/manabe.svg?react";
 import {useState, type FormEvent} from "react";
@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import {toast} from "sonner";
 import {useExamStore} from "@/stores/exam-store.ts";
 import {ExamAPI} from "@/api/exam.ts";
-import {History} from "lucide-react";
+import {AudioWaveform, History} from "lucide-react";
 
 export const Route = createFileRoute('/')({
   component: RouteComponent,
@@ -113,6 +113,10 @@ function RouteComponent() {
                           <History/> Resultados anteriores
                       </Button>
                   </div>
+                  <hr className="border-white"/>
+                  <Link to="/dictados">
+                  <Button className="w-full" variant="outline"><AudioWaveform/> Dictados</Button>
+                  </Link>
               </form>
               <div className="flex justify-end gap-4 items-center">
                   <a href="https://manabe.es/" className="flex justify-center items-center">

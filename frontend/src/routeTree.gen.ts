@@ -21,6 +21,8 @@ import { Route as R3RouteImport } from './routes/3'
 import { Route as R2RouteImport } from './routes/2'
 import { Route as R10RouteImport } from './routes/10'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DictadosIndexRouteImport } from './routes/dictados/index'
+import { Route as DictadosNivelRouteImport } from './routes/dictados/$nivel'
 
 const Pre2Route = Pre2RouteImport.update({
   id: '/pre2',
@@ -82,6 +84,16 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const DictadosIndexRoute = DictadosIndexRouteImport.update({
+  id: '/dictados/',
+  path: '/dictados/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DictadosNivelRoute = DictadosNivelRouteImport.update({
+  id: '/dictados/$nivel',
+  path: '/dictados/$nivel',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -96,6 +108,8 @@ export interface FileRoutesByFullPath {
   '/9': typeof R9Route
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
+  '/dictados/$nivel': typeof DictadosNivelRoute
+  '/dictados': typeof DictadosIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -110,6 +124,8 @@ export interface FileRoutesByTo {
   '/9': typeof R9Route
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
+  '/dictados/$nivel': typeof DictadosNivelRoute
+  '/dictados': typeof DictadosIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -125,6 +141,8 @@ export interface FileRoutesById {
   '/9': typeof R9Route
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
+  '/dictados/$nivel': typeof DictadosNivelRoute
+  '/dictados/': typeof DictadosIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -141,6 +159,8 @@ export interface FileRouteTypes {
     | '/9'
     | '/past-exams'
     | '/pre2'
+    | '/dictados/$nivel'
+    | '/dictados'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -155,6 +175,8 @@ export interface FileRouteTypes {
     | '/9'
     | '/past-exams'
     | '/pre2'
+    | '/dictados/$nivel'
+    | '/dictados'
   id:
     | '__root__'
     | '/'
@@ -169,6 +191,8 @@ export interface FileRouteTypes {
     | '/9'
     | '/past-exams'
     | '/pre2'
+    | '/dictados/$nivel'
+    | '/dictados/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -184,6 +208,8 @@ export interface RootRouteChildren {
   R9Route: typeof R9Route
   PastExamsRoute: typeof PastExamsRoute
   Pre2Route: typeof Pre2Route
+  DictadosNivelRoute: typeof DictadosNivelRoute
+  DictadosIndexRoute: typeof DictadosIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -272,6 +298,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/dictados/': {
+      id: '/dictados/'
+      path: '/dictados'
+      fullPath: '/dictados'
+      preLoaderRoute: typeof DictadosIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dictados/$nivel': {
+      id: '/dictados/$nivel'
+      path: '/dictados/$nivel'
+      fullPath: '/dictados/$nivel'
+      preLoaderRoute: typeof DictadosNivelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -288,6 +328,8 @@ const rootRouteChildren: RootRouteChildren = {
   R9Route: R9Route,
   PastExamsRoute: PastExamsRoute,
   Pre2Route: Pre2Route,
+  DictadosNivelRoute: DictadosNivelRoute,
+  DictadosIndexRoute: DictadosIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
