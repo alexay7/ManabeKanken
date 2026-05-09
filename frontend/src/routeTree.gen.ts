@@ -22,7 +22,9 @@ import { Route as R2RouteImport } from './routes/2'
 import { Route as R10RouteImport } from './routes/10'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as DictadosIndexRouteImport } from './routes/dictados/index'
+import { Route as CancionesIndexRouteImport } from './routes/canciones/index'
 import { Route as DictadosNivelRouteImport } from './routes/dictados/$nivel'
+import { Route as CancionesCancionCancionRouteImport } from './routes/canciones/cancion/$cancion'
 
 const Pre2Route = Pre2RouteImport.update({
   id: '/pre2',
@@ -89,9 +91,19 @@ const DictadosIndexRoute = DictadosIndexRouteImport.update({
   path: '/dictados/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CancionesIndexRoute = CancionesIndexRouteImport.update({
+  id: '/canciones/',
+  path: '/canciones/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DictadosNivelRoute = DictadosNivelRouteImport.update({
   id: '/dictados/$nivel',
   path: '/dictados/$nivel',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CancionesCancionCancionRoute = CancionesCancionCancionRouteImport.update({
+  id: '/canciones/cancion/$cancion',
+  path: '/canciones/cancion/$cancion',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -109,7 +121,9 @@ export interface FileRoutesByFullPath {
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
   '/dictados/$nivel': typeof DictadosNivelRoute
+  '/canciones': typeof CancionesIndexRoute
   '/dictados': typeof DictadosIndexRoute
+  '/canciones/cancion/$cancion': typeof CancionesCancionCancionRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -125,7 +139,9 @@ export interface FileRoutesByTo {
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
   '/dictados/$nivel': typeof DictadosNivelRoute
+  '/canciones': typeof CancionesIndexRoute
   '/dictados': typeof DictadosIndexRoute
+  '/canciones/cancion/$cancion': typeof CancionesCancionCancionRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -142,7 +158,9 @@ export interface FileRoutesById {
   '/past-exams': typeof PastExamsRoute
   '/pre2': typeof Pre2Route
   '/dictados/$nivel': typeof DictadosNivelRoute
+  '/canciones/': typeof CancionesIndexRoute
   '/dictados/': typeof DictadosIndexRoute
+  '/canciones/cancion/$cancion': typeof CancionesCancionCancionRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -160,7 +178,9 @@ export interface FileRouteTypes {
     | '/past-exams'
     | '/pre2'
     | '/dictados/$nivel'
+    | '/canciones'
     | '/dictados'
+    | '/canciones/cancion/$cancion'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -176,7 +196,9 @@ export interface FileRouteTypes {
     | '/past-exams'
     | '/pre2'
     | '/dictados/$nivel'
+    | '/canciones'
     | '/dictados'
+    | '/canciones/cancion/$cancion'
   id:
     | '__root__'
     | '/'
@@ -192,7 +214,9 @@ export interface FileRouteTypes {
     | '/past-exams'
     | '/pre2'
     | '/dictados/$nivel'
+    | '/canciones/'
     | '/dictados/'
+    | '/canciones/cancion/$cancion'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -209,7 +233,9 @@ export interface RootRouteChildren {
   PastExamsRoute: typeof PastExamsRoute
   Pre2Route: typeof Pre2Route
   DictadosNivelRoute: typeof DictadosNivelRoute
+  CancionesIndexRoute: typeof CancionesIndexRoute
   DictadosIndexRoute: typeof DictadosIndexRoute
+  CancionesCancionCancionRoute: typeof CancionesCancionCancionRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -305,11 +331,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DictadosIndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/canciones/': {
+      id: '/canciones/'
+      path: '/canciones'
+      fullPath: '/canciones'
+      preLoaderRoute: typeof CancionesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dictados/$nivel': {
       id: '/dictados/$nivel'
       path: '/dictados/$nivel'
       fullPath: '/dictados/$nivel'
       preLoaderRoute: typeof DictadosNivelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/canciones/cancion/$cancion': {
+      id: '/canciones/cancion/$cancion'
+      path: '/canciones/cancion/$cancion'
+      fullPath: '/canciones/cancion/$cancion'
+      preLoaderRoute: typeof CancionesCancionCancionRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -329,7 +369,9 @@ const rootRouteChildren: RootRouteChildren = {
   PastExamsRoute: PastExamsRoute,
   Pre2Route: Pre2Route,
   DictadosNivelRoute: DictadosNivelRoute,
+  CancionesIndexRoute: CancionesIndexRoute,
   DictadosIndexRoute: DictadosIndexRoute,
+  CancionesCancionCancionRoute: CancionesCancionCancionRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

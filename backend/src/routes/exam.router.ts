@@ -4,7 +4,9 @@ import Elysia from "elysia";
 import {rateLimit} from "elysia-rate-limit";
 
 export const examRouter = new Elysia({prefix: "/exams"})
-    .use(rateLimit())
+    .use(rateLimit({
+        scoping:"scoped"
+    }));
 
 examRouter.get(
     "/:level",

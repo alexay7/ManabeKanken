@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 import {toast} from "sonner";
 import {useExamStore} from "@/stores/exam-store.ts";
 import {ExamAPI} from "@/api/exam.ts";
-import {AudioWaveform, History} from "lucide-react";
+import {AudioWaveform, History,Music4} from "lucide-react";
 
 export const Route = createFileRoute('/')({
   component: RouteComponent,
@@ -114,9 +114,14 @@ function RouteComponent() {
                       </Button>
                   </div>
                   <hr className="border-white"/>
-                  <Link to="/dictados">
-                  <Button className="w-full" variant="outline"><AudioWaveform/> Dictados</Button>
-                  </Link>
+                  <div className="flex gap-2">
+                      <Link className="flex-2/3" to="/dictados">
+                          <Button className="w-full" variant="outline"><AudioWaveform/> Dictados</Button>
+                      </Link>
+                      <Link className="flex-1/3 text-purple-700! hover:border-purple-700!" to="/canciones">
+                          <Button className="w-full" variant="outline"><Music4/> Dictados de canciones</Button>
+                      </Link>
+                  </div>
               </form>
               <div className="flex justify-end gap-4 items-center">
                   <a href="https://manabe.es/" className="flex justify-center items-center">
